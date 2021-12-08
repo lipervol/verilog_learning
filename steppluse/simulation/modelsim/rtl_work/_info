@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\22060\Desktop\Quartus\steppluse\simulation\modelsim
+vsteppluse
+IX7><ZoLGDUY?JS24Z6A>K2
+V?TRmzzGXjS9fZS:eaFNSh0
+w1621906253
+8C:/Users/22060/Desktop/Quartus/steppluse/steppluse.v
+FC:/Users/22060/Desktop/Quartus/steppluse/steppluse.v
+L0 1
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+!s100 b<5iG2P7SYWY<?P?:AL[N2
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/22060/Desktop/Quartus/steppluse -O0
+vsteppluse_vlg_tst
+!s100 1FE?nDTU:SO^c^Q9@Q3Gz2
+IIhjIfH?6QKgJ10K;HhoPl0
+VE:4]0V@0]P8MPZMZAd<PC3
+w1621906200
+8C:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim/steppluse.vt
+FC:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim/steppluse.vt
+L0 28
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+!s92 -vlog01compat -work work +incdir+C:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim -O0

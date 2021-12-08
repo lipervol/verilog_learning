@@ -1,0 +1,6 @@
+module myname(M,dotout,selout,clk,din);
+input clk;
+input wire[3:0] din;
+output reg[3:0] M;
+output reg[15:0] dotout;
+output reg[3:0] selout

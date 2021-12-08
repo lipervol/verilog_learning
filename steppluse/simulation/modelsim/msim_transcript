@@ -1,0 +1,44 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do steppluse_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/22060/Desktop/Quartus/steppluse {C:/Users/22060/Desktop/Quartus/steppluse/steppluse.v}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module steppluse
+# 
+# Top level modules:
+# 	steppluse
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim {C:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim/steppluse.vt}
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module steppluse_vlg_tst
+# 
+# Top level modules:
+# 	steppluse_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  steppluse_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps steppluse_vlg_tst 
+# Loading work.steppluse_vlg_tst
+# ** Error: (vsim-19) Failed to access library 'altera_lnsim_ver' at "altera_lnsim_ver".
+# No such file or directory. (errno = ENOENT)
+# Loading work.steppluse
+# ** Warning: (vsim-3009) [TSCALE] - Module 'steppluse' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /steppluse_vlg_tst/i1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# Break in Module steppluse_vlg_tst at C:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim/steppluse.vt line 63
+# Simulation Breakpoint: Break in Module steppluse_vlg_tst at C:/Users/22060/Desktop/Quartus/steppluse/simulation/modelsim/steppluse.vt line 63
+# MACRO ./steppluse_run_msim_rtl_verilog.do PAUSED at line 17

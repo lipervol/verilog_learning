@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\22060\Desktop\Quartus\myname\simulation\modelsim
+vmyname
+ILX3nZblTL<eQ5z`dEj^023
+V_bJc9J=i?11^8Z>ckUz]W3
+w1622183846
+8C:/Users/22060/Desktop/Quartus/myname/myname.v
+FC:/Users/22060/Desktop/Quartus/myname/myname.v
+L0 1
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+!s100 HDB5AR4GTX=NHUh_7mb<Y3
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/22060/Desktop/Quartus/myname -O0
+vmyname_vlg_tst
+!s100 1HajJ8i6V10`Se=_9OW0[0
+IJNGOoo3m<eZkf5ckmG6?43
+Vjajfkh8OH@O5ne=If0Tf^1
+w1622183883
+8C:/Users/22060/Desktop/Quartus/myname/simulation/modelsim/myname.vt
+FC:/Users/22060/Desktop/Quartus/myname/simulation/modelsim/myname.vt
+L0 28
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+!s92 -vlog01compat -work work +incdir+C:/Users/22060/Desktop/Quartus/myname/simulation/modelsim -O0

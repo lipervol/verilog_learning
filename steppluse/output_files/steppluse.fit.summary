@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 25 09:43:27 2021
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : steppluse
+Top-level Entity Name : steppluse
+Family : Cyclone III
+Device : EP3C25F324C8
+Timing Models : Final
+Total logic elements : 80 / 24,624 ( < 1 % )
+    Total combinational functions : 80 / 24,624 ( < 1 % )
+    Dedicated logic registers : 36 / 24,624 ( < 1 % )
+Total registers : 36
+Total pins : 12 / 216 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

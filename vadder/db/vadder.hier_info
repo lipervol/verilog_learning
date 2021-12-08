@@ -1,0 +1,257 @@
+|vadder
+D[0] <= P.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= halfadder:H0.port0
+D[2] <= fulladder:F0.port0
+D[3] <= fulladder:F2.port0
+D[4] <= halfadder:H3.port0
+D[5] <= fulladder:F6.port0
+D[6] <= fulladder:F7.port0
+D[7] <= fulladder:F7.port1
+A[0] => P.IN0
+A[0] => P.IN0
+A[0] => P.IN0
+A[0] => P.IN0
+A[1] => P.IN0
+A[1] => P.IN0
+A[1] => P.IN0
+A[2] => P.IN0
+A[2] => P.IN0
+A[2] => P.IN0
+A[2] => P.IN0
+A[3] => P.IN0
+A[3] => P.IN0
+A[3] => P.IN0
+A[3] => P.IN0
+B[0] => P.IN1
+B[0] => P.IN1
+B[0] => P.IN1
+B[0] => P.IN1
+B[1] => P.IN1
+B[1] => P.IN1
+B[1] => P.IN1
+B[1] => P.IN1
+B[2] => P.IN1
+B[2] => P.IN1
+B[2] => P.IN1
+B[2] => P.IN1
+B[3] => P.IN1
+B[3] => P.IN1
+B[3] => P.IN1
+M[0] <= <VCC>
+M[1] <= <GND>
+M[2] <= <GND>
+M[3] <= <GND>
+
+
+|vadder|halfadder:H0
+Ho <= Ho.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => Ho.IN0
+Ai => Co.IN0
+Ai => Ho.IN0
+Bi => Ho.IN1
+Bi => Co.IN1
+Bi => Ho.IN1
+
+
+|vadder|halfadder:H1
+Ho <= Ho.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => Ho.IN0
+Ai => Co.IN0
+Ai => Ho.IN0
+Bi => Ho.IN1
+Bi => Co.IN1
+Bi => Ho.IN1
+
+
+|vadder|fulladder:F0
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|halfadder:H2
+Ho <= Ho.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => Ho.IN0
+Ai => Co.IN0
+Ai => Ho.IN0
+Bi => Ho.IN1
+Bi => Co.IN1
+Bi => Ho.IN1
+
+
+|vadder|fulladder:F1
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|fulladder:F2
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|fulladder:F3
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|fulladder:F4
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|halfadder:H3
+Ho <= Ho.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => Ho.IN0
+Ai => Co.IN0
+Ai => Ho.IN0
+Bi => Ho.IN1
+Bi => Co.IN1
+Bi => Ho.IN1
+
+
+|vadder|fulladder:F5
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|fulladder:F6
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
+|vadder|fulladder:F7
+So <= So.DB_MAX_OUTPUT_PORT_TYPE
+Co <= Co.DB_MAX_OUTPUT_PORT_TYPE
+Ai => So.IN0
+Ai => So.IN0
+Ai => Co.IN0
+Ai => So.IN0
+Ai => So.IN0
+Bi => So.IN1
+Bi => So.IN1
+Bi => Co.IN0
+Bi => So.IN1
+Bi => So.IN1
+Ci => So.IN1
+Ci => So.IN1
+Ci => Co.IN1
+Ci => Co.IN1
+Ci => So.IN1
+Ci => So.IN1
+
+
